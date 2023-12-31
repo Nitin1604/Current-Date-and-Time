@@ -1,0 +1,26 @@
+  .clock {
+    margin-top: 113px;
+    background-color: red;
+    color: yellow;
+    width: 50%;
+    margin-left: 372px;
+    border-radius: 25px;
+    border: 5px solid yellow;
+  }
+  
+  .clock:hover {
+    color: red;
+    background-color: yellow;
+    cursor: pointer;
+    border: 5px solid red;
+  }
+  
+  /* CSS for screens larger than 768px */
+  @media screen and (max-width: 768px ) {
+    .clock {
+      width: 526px;
+      height: 80px;
+      position: absolute;
+      right: 130px;
+    }
+  }
